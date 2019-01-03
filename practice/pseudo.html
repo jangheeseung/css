@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .a1:hover{
+        color:blue;
+      }
+      a:link{
+        color:black;
+      }
+      a:visited{
+        color:red;
+        /* 보안적이라 일부 속성만 사용가능 */
+      }
+      a:hover{
+        color:yellow;
+      }
+      a:active{
+        color:green;
+      }/*누르면 초록색으로->가상선택자*/
+      a:focus{
+        color:white;
+        /* 포커스는 마지막에 쓰기 _tab키로 포커싱을 맞춤 */
+      }
+  /*둘이 동시에 선언하면 뒤에 있는것 부터 실행*/
+    input:focus{
+      background-color:black;
+      color:white;
+    }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <a href="https://www.youtube.com/watch?v=UK9GF5Kg__A&index=9&list=PLuHgQVnccGMDaVaBmkX0qfB45R_bYrV62">방문함</a>
+    <br>
+    <a class = "a1" href="#">한번 해보자</a>
+    <br>
+    <a href="https://ww">방문안함</a>
+<a href="#"></a>
+  </body>
