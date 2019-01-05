@@ -4,7 +4,7 @@
 <img src="img/css_cheatsheet.png" width="500px" height="400px;"/>
 
 * css를 이용한 간단한 게임
-  	* [css게임](flukeout.github.io)
+  	* css게임 -> flukeout.github.io
 		17번까지는 해보기
 		그 뒤는 그냥 해보기
 			-> 궁금하면 생활코딩 css 다양한 선택자들 보기
@@ -25,7 +25,7 @@
 		* hex  ->16진수 방식(#~~)
 		* rbg
 
-* [color 비교 사이트](www.w3schools.com)
+* color 비교 사이트->www.w3schools.com
 	-> 컬러를 보기에 좋다
 
   	* color name은 tomato나skyblue이런식으로 유명한 색은 지정되어 잇다.
@@ -39,7 +39,7 @@
       우선 순위의 폰트가 뜬다 (폰트1이 없으면 폰트2 또 없으면 폰트3)
 
 * font shape
-  <img src="img/font_shape.png" width="300px" height="200px;"/>
+  <img src="img/font_shape.PNG" width="300px" height="200px;"/>
 
       * Sans-serif (장식이 없다)
       * monospace (고정목)
