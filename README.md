@@ -3,6 +3,8 @@
 * css cheatsheet
 <img src="img/css_cheatsheet.png" width="500px" height="300px;"/>
 
+    * css usage on the web platform -> https://developer.microsoft.com/en-us/microsoft-edge/platform/usage/
+
 * css를 이용한 간단한 게임
   	* css게임 -> flukeout.github.io
 		17번까지는 해보기
@@ -69,5 +71,21 @@
 
     * 2.style attrubute< id < class < tag
           * 지금 디자인 하는 부분에 뭐가 더 정확하고,구체적이며 더 포괄적이며, 일반적인지 이러한 이유를 따졌을때 저 우선 순위를 따른다.
-            *하지만 모든 우선순위를 뛰어넘는 방법이 있다. (!important 사용)
+            * 하지만 모든 우선순위를 뛰어넘는 방법이 있다. (!important 사용)
                 -> 좋은 방법은 아니니 우선순위를 잘따지자
+--------------------------------------------------------------------------------
+* inline vs block
+
+  * 자신과 자신을 둘러싸고 있는 다른 텍스트나 다른 정보들과 하나의 같은 줄에 위치하는 형태의 태그들을 inline element (ex)제목,문장속 링크) ->자신의 크기 만큼을 차지
+  <img src="img/inline.PNG" width="300px" height="200px;"/>
+  * 자기 혼자서 화면 전체를 다쓰는 block level element (같은 라인 상에 다른 컨텐트 존재 x)
+  <img src="img/block.PNG" width="300px" height="200px;"/>
+
+  ------------------------------------------------------------------------------
+
+  * Box Model (태그의 부피감 결정-> 여백,위치,크기 등등 )
+
+      * width,height,margin,padding,border...
+      * inline에서는 width와 height값이 무시된다.
+
+        <img src="img/margin.gif" width="300px" height="300px;"/>
